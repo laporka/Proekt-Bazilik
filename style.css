@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kavivanar&family=Keania+One&family=Raleway:ital,wght@0,400;0,700;0,800;1,300&display=swap');
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Kavivanar','Raleway','Inter';
+	background-color: #EBDECB;
+	font-family: 'Kavivanar', 'Raleway';
+}
+.container{
+    max-width: 1392px;
+    height: 148px;
+    margin: 0 auto;
+}
+.container2{
+	max-width: 1380px;
+	height:	380px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header{
+	background-color: #FFFFFF;
+	height: 148px;
+}
+.header_2{
+	background-image: url("img/bg-main.svg");
+	height: 600px;
+}
+
+
+
+
+/* LSI and menu START */
+
+
+/* LSI */
+.lsi{
+	padding-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 18px;
+}
+.lsi input{
+	font-size:16px ;
+	font-weight: 400px;
+}
+.container input {
+	padding-left:40px;
+	background-image: url(img/search-normal.svg);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+  }
+/* input{
+	background-repeat: no-repeat;
+	background-image:url(img/search-normal.svg) ;
+	background-position: 5px;
+	width: 24px;
+	height: 24px;
+} */
+.input::placeholder{
+	padding-left: 10px;
+}
+.input_search{
+	border: #000000 solid 1px;
+	border-radius: 800px;
+	justify-content: center;
+	width: 757px;
+	height: 50px;
+}
+.icons{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 60px;
+}
+
+
+/* Menu */
+.menu{
+	display: flex;
+	justify-content: center;
+}
+.menu_ul{
+	display: flex;
+	column-gap: 52px;
+	justify-content: space-between;
+}
+.menu_text{
+	font-weight: 400px;
+	font-size: 24px;
+}
+
+
+/* LSI and menu CLOSE */
+
+
+
+
+/* Btn and text START */
+
+
+/* Btn */
+.text_btn{
+	margin-top: 176px;
+	width:	470px;
+	height: 244px;
+}
+.text{
+	max-width:	470px;
+	max-height: 147px;
+	background-color: #FFFFFF;
+	margin-bottom: 48px;
+	text-align: center;
+	border-radius: 50px 0px 50px 0px;
+}
+.btn{
+	position: relative;
+	width:	275px;
+	height: 50px;
+	border-radius: 88px;
+	background-color: #FFFFFF;
+	left: 98px;
+}
+
+
+/* Text weight and size */
+.p1{
+	font-weight: 700px;
+	font-size: 58px;
+}
+.p2{
+	font-weight: 300;
+	font-size: 40px;
+}
+
+
+/* Btn and text CLOSE */
+
+
+
+
+
+/* Img and slider START */
+
+
+/* Img */
+.img_slider{
+	margin-top: 103px;
+	max-width: 880px;
+	max-height: 350px;
+}
